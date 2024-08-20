@@ -1,4 +1,3 @@
-
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
@@ -7,44 +6,35 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "pergunta 1",
+        enunciado: "1- Pessoas estão usando as redes sociais para competir por relevância dentro de uma plataforma, onde usam de sua influência para divulgar produtos ou marcas queincentivam o consumismo ou o gasto exagerado de dinheiro. Qual sua opinião sobrejogos de azar online?",
         alternativas:[
-            {
-                texto: "alternativa 1",
-                afirmacao: "afirmacao 1"
-    },
-    {   
-                texto: "alternativa 2",
-                afirmacao: "afirmacao 2"}
-            
-            ]
+            { texto: "a- Acho absurdo e desnecessário, porque a influência dessas pessoas pode acabaratingindo pessoas que não tem o conhecimento necessário para utilizar tais meiosde lucro, onde esses podem não ser concretos e prejudicar a vida dessas pessoas.",  
+              afirmacao: "Esse comentário mostra que o autor se preocupa com as pessoas menosafortunadas ou que não tem certo controle do que fazem, priorizando aintegridade e a veracidade de propagandas nas redes sociais."},
+    
+    { texto: "b- Acho bom, pois sei até onde posso ou não investir com responsabilidade nainternet, portanto eu vejo estes como uma forma de renda extra e até entretenimento.",
+      afirmacao: "Uma pessoa que possivelmente entende os riscos de suas ações online e sabecomo lidar com eles de forma responsável." } ]
     },
     {
-        enunciado: "pergunta 1",
+        enunciado: "2- O que você acha sobre jogos online com micro transações abusivas?",
         alternativas:[
-            {
-                texto: "alternativa 1",
-                afirmacao: "afirmacao 1"
-    },
-    {   
-                texto: "alternativa 2",
-                afirmacao: "afirmacao 2"}
-            
-            ]
+            { texto: "a- Gosto, porque se eu comprar um determinado pacote eu fico mais forte dentro do jogo", 
+            afirmacao: "Pessoas com vicio comprariam compulsivamente sem olhar o preço."},
+    
+    { texto: "b- Acho ruim, pois alguns jogos os itens pagos deixam os jogadores mais fortes",
+      afirmacao: "Entende que pode ser prejudicial pois pode desfavorecer alguns jogadores e “quebrar” com a experiencia do jogo" } ]
     },
     {
-        enunciado: "pergunta 1",
+        enunciado: "3- Sabemos que no mercado de jogos, existe um mercado interno criado para favorecer jogadores com itens pagos com dinheiro real, qual sua opinião sobre essa prática?",  
         alternativas:[
-            {
-                texto: "alternativa 1",
-                afirmacao: "afirmacao 1"
-    },
-    {   
-                texto: "alternativa 2",
-                afirmacao: "afirmacao 2"}
-            
-            ]
-    },
+            { texto: "a- Não gosto, pois as pessoas menos favorecidas financeiramente não podemusufruir de tais itens mesmo tendo habilidades para possuírem através de conquistas dentro do jogo, em vez de precisarem de dinheiro real.",
+            afirmacao: "A pessoa acha injusto ter que pagar por algo que deveria ser conquistado com habilidades.."},
+    
+    { texto: "b- Eu concordo, pois se a pessoa quer investir no jogo de forma consciente e dentrodas regras do jogo ela pode, afinal essa opção existe para todos os jogadores e o jogo precisa de lucro para continuar rodando como qualquer meio de lazer.",
+      afirmacao: "A pessoa concorda com a prática pois cada pessoa é responsável pela sua escolha de gastar ou não no jogo." } ]
+    }
+   
+   
+   
 ]
 
 let atual = 0;
